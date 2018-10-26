@@ -6,8 +6,46 @@ Modify this file to your hearts content and make your website look awesome!*/
 body{
 	background-color: white;
 	padding-top: 80px;
+
+	
+	
 }
 
+.col-md-9 {
+	margin: auto;
+
+
+}
+
+.col-md-6 {
+	margin: auto;
+	width: 1000px;
+}
+
+.col-md-12 {
+	margin: 0 auto;
+	display: block;
+
+}
+
+.img-fluid1 {
+	transform: rotate(270deg);
+
+}
+
+.img-fluid {
+	padding: 20px;
+}
+.w-100 {
+	max-width: 30%;
+
+}
+
+.slide-show {
+	background-color: #D5D5D5;
+	border-radius: 12px;
+	padding: 10px;
+}
 /*Home*/
 .full-page-bg {
   position: absolute;
@@ -26,25 +64,41 @@ body{
 .card{border: none; background-color: transparent;}
 
 /*Navbar Rules*/
-img.nav-bar-img{
-	margin-right: 10px;
+	
 }
 
-.navbar{
-	background-color: #fff;
+.navbar-light {
+	width: 1200px;
+}
 
+
+.navbar{
+	background-color: #B4B4B4;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 18px;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+	font-family: 'Helvetica';
+
+}
+
+
+a.navbar-brand{
+	font-family:'Helvetica', Sans-Serif;
+	font-size;
+	
+}
+
+.navbar-nav {
+	margin: auto;
 }
 
 .nav-item {
-	text-align: center;
-	display: block;
-    margin-left: auto;
+
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
-a.navbar-brand{
-	font-family:'Montserrat', Sans-Serif;
-	font-size: 
-}
 
 /*Floating Nav*/
 .floating-nav{
@@ -61,40 +115,49 @@ a.navbar-brand{
 		text-align: left;
 	}
 
+.ml-auto {
+	margin: auto;
+}
+
 /*Image Rules*/
 img{
 	border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 0px solid #000000;
+	margin: auto;
+	display: block;
 }
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
-	font-family:'Montserrat', Sans-Serif;
+	font-family:'Helvetica', Sans-Serif;
 	margin-bottom: 20px;
 }
 	h1.welcome-special{
 		font-size: 90px;
+		font-family: 'Helvetica';
 		
 	}
 
 	h2.welcome-special-sub{
-		font-family: 'Lato', Sans-Serif;
+		font-family: 'Helvetica', Sans-Serif;
 		font-size: 30px;
 	}
 
 	h3{
 		text-transform: uppercase;
-		color: #a49727;
+		color: #5848FC;
 		letter-spacing: -0.5px;
 		text-align: center;
 	}
 
 p, li, span, a {
-	font-family: 'Lato', Sans-Serif;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'Sans-Serif;
 	text-align: justify;
 	font-weight: 300;
+	margin: auto;
+	width; 1000px;
 }
 
 	p{
@@ -105,6 +168,10 @@ p, li, span, a {
 
 h1 {
 	text-align: center;
+}
+
+#colorp {
+	color: #5848FC;
 }
 
 span.img-caption{
@@ -148,16 +215,21 @@ span.img-caption{
 
 .slide-show{
 	padding: 30px 0px 50px 0px;
+
 }
 
+#foot {
+	margin-bottom: 100px;
+}
 /*Footer*/
 .footer{
-	margin-top: 50px;
-	padding-top: 30px;
-	width: 100%;
+
+	margin: auto;
+	padding-top: 100px;
 	min-height: 100px;
 	background-color: #989898;
-	border-top: 1px solid #727272;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 }
 
 
